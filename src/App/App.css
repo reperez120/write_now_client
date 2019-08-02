@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+html {
+  background-image: url("http://backgrounds.picaboo.com/download/4a/a4/4a4c7b6d71194dcb87c4d6c1073b2d07/collegeruled.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+}
+
+@media screen and (max-width: 480px) { 
+  h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
